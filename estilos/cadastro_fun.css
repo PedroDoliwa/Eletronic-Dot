@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #d69a3a;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 90vw;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+fieldset {
+    position:absolute;
+    top:4vw;
+    left:40%;
+    padding-top:50px;
+    padding-bottom:40px;
+    background:rgb(96, 45, 0);
+    border-radius: 30px;
+}
+
+.botao{
+    font-size: 20px;
+    color:white;  
+    background: rgb(255, 0, 0);
+    min-width: 130px;
+    min-height: 10px;
+    padding: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+.cadastrar{
+    position:absolute;
+    bottom:20px;
+    left:40rem;
+}
+
+div.voltar{
+    position:absolute;
+    bottom:20px;
+    left:50rem;
+}
+
+p {
+    color: white;
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.titulo {
+    position:absolute;
+    top:35px;
+    left:70px;
+    font-size: 45px;
+   
+}
+
+/* LOGO - CACAU */
+
+img.logo{
+    position:absolute;
+    top: 30px;
+    right: 30px;
+    height: 150px;
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #d69a3a;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 90vw;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.tabela {
+    border: 1px solid black;
+    
+
+}
+.tabela td{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+tr.menu{
+    background-color:rgb(96, 45, 0);
+    color:white;
+    text-align: center;
+}
+.tabela .campos{
+    background-color:rgba(255, 255, 255, 0.636);
+}
+
+
+div.rolagem{
+    overflow-y: scroll; 
+    height: 550px;
+    border-radius: 0px;
+    border: 3px solid black;
+
+}
+
+
+.botao{
+    font-size: 20px;
+    color:white;  
+    background: rgb(255, 0, 0);
+    min-width: 130px;
+    min-height: 10px;
+    padding: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+
+div.voltar{
+    position:absolute;
+    bottom:40px;
+    right:44rem;
+}
+
+
+
+.titulo {
+    position:absolute;
+    top:40px;
+    left:70px;
+    font-size: 45px;
+}
+
+
+/* LOGO - CACAU */
+
+img.logo{
+    position:absolute;
+    top: 30px;
+    right: 30px;
+    height: 150px;
+
+}
